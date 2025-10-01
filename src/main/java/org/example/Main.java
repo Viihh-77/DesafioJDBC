@@ -6,8 +6,6 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-    static Scanner input = new Scanner(System.in);
-
     public static void main(String[] args) {
 
 
