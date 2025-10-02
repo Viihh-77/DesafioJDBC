@@ -34,6 +34,14 @@ public class ManutencaoService {
                 case 1 -> {
                     ManutencaoView.cadastrarFornecedor();
                 }
+
+                case 2 -> {
+                    ManutencaoView.cadastrarMaterial();
+                }
+
+                case 3 -> {
+                    ManutencaoView.registrarNotaEntrada();
+                }
             }
 
         }
