@@ -42,9 +42,28 @@ public class ManutencaoService {
                 case 3 -> {
                     ManutencaoView.registrarNotaEntrada();
                 }
-            }
 
+                case 4 -> {
+
+                }
+
+                case 5 -> {
+
+                }
+
+                case 6 -> {
+
+                }
+
+                case 0 -> {
+                    System.out.println(" ");
+                    System.out.println("Encerrando sistema...");
+                    sair = true;
+                }
+
+                default -> System.out.println("Erro: digite um número válido!");
+
+            }
         }
     }
-
 }
